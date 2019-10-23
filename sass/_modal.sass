@@ -1,0 +1,34 @@
+.overlay
+  position: fixed
+  display: none
+  top: 0
+  width: 100%
+  height: 100%
+  z-index: 3
+  background-color: rgba(0, 0, 0, 0.6)
+  .popup
+    background-color: #fff
+    padding-top: 35px
+    padding-bottom: 40px
+    position: fixed
+    left: 50%
+    top: 125px
+    width: 300px
+    transform: translateX(-50%)
+    &-close
+      position: absolute
+      right: 8px
+      top: 0px
+      font-size: 35px
+      font-weight: 300
+      color: #23bac1
+      cursor: pointer
+    &-title
+      font-family: "Proxima Nova Rg"
+      font-size: 18px
+      font-weight: 400
+      text-align: center
+      margin-bottom: 30px
+  &-form
+    &-input
+      padding: 15px 55px

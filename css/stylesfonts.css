@@ -1,0 +1,37 @@
+@font-face {
+	font-family: 'Proxima Nova Rg';
+	src: local('../fonts/Proxima Nova Regular'), local('../fonts/ProximaNova-Regular'),
+		url('../fonts/ProximaNova-Regular.woff') format('woff'),
+		url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Bold';
+	src: local('../fonts/Proxima Nova Bold'), local('../fonts/ProximaNova-Bold'),
+		url('../fonts/ProximaNova-Bold.woff') format('woff'),
+		url('../fonts/ProximaNova-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Lt';
+	src: local('../fonts/Proxima Nova Light'), local('../fonts/ProximaNova-Light'),
+		url('../fonts/ProximaNova-Light.woff') format('woff'),
+		url('../fonts/ProximaNova-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MyriadPro-Regular';
+	src: local('../fonts/MyriadPro-Regular'), local('../fonts/MyriadPro-Regular'),
+		url('../fonts/MyriadPro-Regular.woff') format('woff'),
+		url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
